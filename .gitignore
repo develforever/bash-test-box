@@ -1,0 +1,4 @@
+.history
+.vscode
+scripts/*
+!scripts/.gitkeep

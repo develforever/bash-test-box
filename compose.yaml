@@ -1,0 +1,11 @@
+
+
+services:
+  box:
+    build: .docker/box/
+    tty: true
+    volumes:
+      - ./scripts:/home/tester/test_root/scripts
+    command: "scripts/my_test.sh"
+    
+
